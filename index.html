@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <meta charset="utf-8" />
+
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"
+    />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="https://cdn.glitch.global/42c2972a-a179-49fe-87e7-b6ba3ecec495/apple-touch-icon.png?v=1717590077854"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="https://cdn.glitch.global/42c2972a-a179-49fe-87e7-b6ba3ecec495/favicon-32x32.png?v=1717590093803"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="https://cdn.glitch.global/42c2972a-a179-49fe-87e7-b6ba3ecec495/favicon-16x16.png?v=1717590091212"
+    />
+    <link rel="manifest" href="https://cdn.glitch.global/42c2972a-a179-49fe-87e7-b6ba3ecec495/site.webmanifest?v=1717590107371" />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#F5F5F5" />
+
+    <title>Messages</title>
+  </head>
+
+  <body>
+    <main>
+      <div id="kevin-button" onclick="location.reload();"></div>
+
+      <div id="phone">
+        <div class="chat visible" data-chat="alice">
+          <header class="chat-header">
+            <div class="chat-profile">
+              <div class="chat-profile-picture">A</div>
+              <div class="chat-profile-name">Alice 🌸</div>
+            </div>
+          </header>
+
+          <main class="chat-main">
+        <div class="phone-separator-status-bar"></div>
+            <div class="chat-main-inner">
+              
+            </div>
+          </main>
+
+          <footer class="chat-footer">
+            <input class="input-message" type="text" spellcheck="false" autocorrect="false" enterkeyhint="send"/>
+          </footer>
+        </div>
+        
+        
+        
+        
+        <div class="chat" data-chat="matheo">
+          <header class="chat-header">
+            <div class="chat-profile">
+              <div class="chat-profile-picture">M</div>
+              <div class="chat-profile-name">Mathéo</div>
+            </div>
+          </header>
+
+          <main class="chat-main">
+        <div class="phone-separator-status-bar"></div>
+            <div class="chat-main-inner">
+              
+            </div>
+          </main>
+
+          <footer class="chat-footer">
+            <input class="input-message" type="text" spellcheck="false" autocorrect="false" enterkeyhint="send"/>
+          </footer>
+        </div>
+      </div>
+    </main>
+    <script src="scenario.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
